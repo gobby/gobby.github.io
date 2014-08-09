@@ -16,27 +16,23 @@
     <body>
 
         <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
+          <div id="header">
+            <a id="logo" href="https://gobby.github.io"><img src="/img/gobby-tango-header.png" alt="Gobby - a collaborative text editor" height="100" width="287" /></a>
           </div>
 
-          {{ content }}
+          <div id="content">
+            {{ content }}
+          </div>
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
+          <div id="footer">
+            <p class="left">© 2005-2014 0x539 dev group</p>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post"><div><input type="hidden" name="__FORM_TOKEN" value="9231cbc1776aefce6a5fa5c9" /></div>
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input type="hidden" name="hosted_button_id" value="10754123" />
+                <input type="image" src="https://www.paypal.com/en_GB/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online." />
+                <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
+              </form>
+            <br style="clear: both; height: 0;" />
           </div>
         </div>
 
