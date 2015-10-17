@@ -8,3 +8,5 @@ libinfinity 0.6.7 has been released. This is a bugfix release in the 0.6.x serie
 
 libinfinity 0.6.7 can be [downloaded](https://github.com/gobby/gobby/wiki/Download)
 from the Wiki page on GitHub.
+
+This release and all future releases will be signed with a new, stronger GPG key with ID 0xBF1D92C7.
